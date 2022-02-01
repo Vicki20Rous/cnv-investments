@@ -47,6 +47,7 @@ public class UserService {
         fundManagerUser.setPassword("java@pass");
         Set<Role> fundManagerRoles = new HashSet<>();
         fundManagerRoles.add(fundManagerRole);
+        fundManagerUser.setRole(fundManagerRoles);
         userDao.save(fundManagerUser);
 
         User investorUser = new User();
@@ -56,6 +57,7 @@ public class UserService {
         investorUser.setPassword("code@pass");
         Set<Role> investorUsers = new HashSet<>();
         investorUsers.add(investorRole);
+        investorUser.setRole(investorUsers);
         userDao.save(investorUser);
 
         User editorUser = new User();
@@ -65,6 +67,7 @@ public class UserService {
         editorUser.setPassword("javacode@pass");
         Set<Role> editorRoles = new HashSet<>();
         editorRoles.add(editorRole);
+        editorUser.setRole(editorRoles);
         userDao.save(editorUser);
     }
 }
