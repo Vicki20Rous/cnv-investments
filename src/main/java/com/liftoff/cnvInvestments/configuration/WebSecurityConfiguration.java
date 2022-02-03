@@ -1,6 +1,5 @@
 package com.liftoff.cnvInvestments.configuration;
 
-import com.liftoff.cnvInvestments.service.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -40,9 +39,9 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     protected void configure(HttpSecurity httpSecurity) throws Exception{
         httpSecurity.cors();
-        httpSecurity.csrf().diable()
+        httpSecurity.csrf().disable()
                 .authorizeRequests().antMatchers("").permitAll()
-                .antMatchers(HttpHeaders.ALLOW).permitAll()
+//                .antMatchers(HttpHeaders.ALLOW).permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint)
@@ -58,6 +57,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
+    @Autowired
     public void configureGlobal(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
         authenticationManagerBuilder.userDetailsService(jwtService).passwordEncoder(passwordEncoder());
     }

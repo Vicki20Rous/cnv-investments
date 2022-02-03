@@ -35,10 +35,6 @@ public class UserService {
         investorRole.setRoleDescription("Investor role");
         roleDao.save(investorRole);
 
-        Role editorRole = new Role();
-        editorRole.setRoleName("Editor");
-        editorRole.setRoleDescription("Editor role");
-        roleDao.save(editorRole);
 
         User fundManagerUser = new User();
         fundManagerUser.setUserFirstName("victoria");
@@ -60,14 +56,5 @@ public class UserService {
         investorUser.setRole(investorUsers);
         userDao.save(investorUser);
 
-        User editorUser = new User();
-        editorUser.setUserFirstName("editor");
-        editorUser.setUserLastName("editor");
-        editorUser.setUserName("cnv-edit");
-        editorUser.setPassword("javacode@pass");
-        Set<Role> editorRoles = new HashSet<>();
-        editorRoles.add(editorRole);
-        editorUser.setRole(editorRoles);
-        userDao.save(editorUser);
     }
 }
