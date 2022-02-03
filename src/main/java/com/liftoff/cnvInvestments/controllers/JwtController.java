@@ -1,6 +1,7 @@
 package com.liftoff.cnvInvestments.controllers;
 
 import com.liftoff.cnvInvestments.entity.JwtRequest;
+import com.liftoff.cnvInvestments.entity.JwtResponse;
 import com.liftoff.cnvInvestments.service.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -16,7 +17,7 @@ public class JwtController {
     private JwtService jwtService;
 
     @PostMapping({"/authenticate"})
-    public void createJwtToken(@RequestBody JwtRequest jwtRequest) {
-
+    public JwtResponse createJwtToken(@RequestBody JwtRequest jwtRequest) throws Exception {
+        return jwtService.createJwtToken(jwtRequest);
     }
 }

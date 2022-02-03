@@ -40,7 +40,7 @@ public class UserService {
         fundManagerUser.setUserFirstName("victoria");
         fundManagerUser.setUserLastName("rouser");
         fundManagerUser.setUserName("manager27");
-        fundManagerUser.setPassword("java@pass");
+        fundManagerUser.setUserPassword("java@pass");
         Set<Role> fundManagerRoles = new HashSet<>();
         fundManagerRoles.add(fundManagerRole);
         fundManagerUser.setRole(fundManagerRoles);
@@ -50,7 +50,7 @@ public class UserService {
         investorUser.setUserFirstName("john");
         investorUser.setUserLastName("smith");
         investorUser.setUserName("investor187");
-        investorUser.setPassword("code@pass");
+        investorUser.setUserPassword("code@pass");
         Set<Role> investorUsers = new HashSet<>();
         investorUsers.add(investorRole);
         investorUser.setRole(investorUsers);
