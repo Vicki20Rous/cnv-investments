@@ -1,4 +1,4 @@
-package com.liftoff.cnvInvestments.models.dto;
+package com.liftoff.cnvInvestments.dto;
 
 
 import javax.validation.constraints.NotBlank;

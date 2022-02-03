@@ -1,4 +1,4 @@
-package com.liftoff.cnvInvestments.data;
+package com.liftoff.cnvInvestments.repository;
 
 import com.liftoff.cnvInvestments.models.Transaction;
 import org.springframework.data.repository.CrudRepository;

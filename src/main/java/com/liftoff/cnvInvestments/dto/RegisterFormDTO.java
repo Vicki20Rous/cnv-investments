@@ -1,4 +1,4 @@
-package com.liftoff.cnvInvestments.models.dto;
+package com.liftoff.cnvInvestments.dto;
 
 public class RegisterFormDTO extends LoginFormDTO{
 

@@ -1,7 +1,7 @@
 package com.liftoff.cnvInvestments.controllers;
 
-import com.liftoff.cnvInvestments.data.TransactionRepository;
-import com.liftoff.cnvInvestments.data.UserRepository;
+import com.liftoff.cnvInvestments.repository.TransactionRepository;
+import com.liftoff.cnvInvestments.repository.UserRepository;
 import com.liftoff.cnvInvestments.models.Transaction;
 import com.liftoff.cnvInvestments.models.User;
 import org.springframework.beans.factory.annotation.Autowired;

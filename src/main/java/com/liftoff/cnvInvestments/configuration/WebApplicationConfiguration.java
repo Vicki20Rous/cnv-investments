@@ -1,5 +1,6 @@
-package com.liftoff.cnvInvestments;
+package com.liftoff.cnvInvestments.configuration;
 
+import com.liftoff.cnvInvestments.filter.AuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
