@@ -1,7 +1,7 @@
 package com.liftoff.cnvInvestments.service;
 
-import com.liftoff.cnvInvestments.models.Role;
-import com.liftoff.cnvInvestments.models.Users;
+import com.liftoff.cnvInvestments.dto.models.Role;
+import com.liftoff.cnvInvestments.dto.models.Users;
 import com.liftoff.cnvInvestments.repository.RoleRepo;
 import com.liftoff.cnvInvestments.repository.UsersRepo;
 import org.springframework.beans.factory.annotation.Autowired;

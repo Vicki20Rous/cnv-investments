@@ -1,6 +1,6 @@
 package com.liftoff.cnvInvestments.repository;
 
-import com.liftoff.cnvInvestments.models.Role;
+import com.liftoff.cnvInvestments.dto.models.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

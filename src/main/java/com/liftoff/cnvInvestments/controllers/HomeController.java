@@ -2,8 +2,8 @@ package com.liftoff.cnvInvestments.controllers;
 
 import com.liftoff.cnvInvestments.repository.TransactionRepository;
 import com.liftoff.cnvInvestments.repository.UserRepository;
-import com.liftoff.cnvInvestments.models.Transaction;
-import com.liftoff.cnvInvestments.models.User;
+import com.liftoff.cnvInvestments.dto.models.Transaction;
+import com.liftoff.cnvInvestments.dto.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

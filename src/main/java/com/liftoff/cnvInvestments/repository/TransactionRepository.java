@@ -1,6 +1,6 @@
 package com.liftoff.cnvInvestments.repository;
 
-import com.liftoff.cnvInvestments.models.Transaction;
+import com.liftoff.cnvInvestments.dto.models.Transaction;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

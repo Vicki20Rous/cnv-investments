@@ -1,6 +1,6 @@
 package com.liftoff.cnvInvestments.controllers;
 
-import com.liftoff.cnvInvestments.models.Users;
+import com.liftoff.cnvInvestments.dto.models.Users;
 import com.liftoff.cnvInvestments.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

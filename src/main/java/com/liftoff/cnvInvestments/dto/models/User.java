@@ -1,4 +1,4 @@
-package com.liftoff.cnvInvestments.models;
+package com.liftoff.cnvInvestments.dto.models;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

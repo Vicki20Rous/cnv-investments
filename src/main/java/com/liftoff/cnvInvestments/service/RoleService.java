@@ -1,6 +1,6 @@
 package com.liftoff.cnvInvestments.service;
 
-import com.liftoff.cnvInvestments.models.Role;
+import com.liftoff.cnvInvestments.dto.models.Role;
 import com.liftoff.cnvInvestments.repository.RoleRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

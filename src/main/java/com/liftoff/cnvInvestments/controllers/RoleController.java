@@ -1,6 +1,6 @@
 package com.liftoff.cnvInvestments.controllers;
 
-import com.liftoff.cnvInvestments.models.Role;
+import com.liftoff.cnvInvestments.dto.models.Role;
 import com.liftoff.cnvInvestments.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

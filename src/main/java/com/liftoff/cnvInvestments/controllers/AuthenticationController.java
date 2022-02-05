@@ -1,7 +1,7 @@
 package com.liftoff.cnvInvestments.controllers;
 
 import com.liftoff.cnvInvestments.repository.UserRepository;
-import com.liftoff.cnvInvestments.models.User;
+import com.liftoff.cnvInvestments.dto.models.User;
 import com.liftoff.cnvInvestments.dto.LoginFormDTO;
 import com.liftoff.cnvInvestments.dto.RegisterFormDTO;
 import org.springframework.beans.factory.annotation.Autowired;
